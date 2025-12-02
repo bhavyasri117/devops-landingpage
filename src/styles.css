@@ -1,0 +1,75 @@
+:root {
+  --bg: #0f1724;
+  --card: #0b1220;
+  --accent: #60a5fa;
+  --muted: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Segoe UI, Roboto, Arial;
+  background: linear-gradient(180deg, var(--bg), #071023);
+  color: #e6eef8;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.hero {
+  padding: 64px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin: 0 0 12px;
+}
+
+.hero p {
+  color: var(--muted);
+  margin: 0 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #042;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #e6eef8;
+}
+
+.features {
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.feature {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1;
+}
+
+.footer {
+  padding: 24px 0;
+  text-align: center;
+  color: var(--muted);
+}
