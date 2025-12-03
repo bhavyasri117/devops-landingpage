@@ -24,7 +24,7 @@ export default function App() {
           <p>Branch/PR workflow enforced</p>
         </div>
         <div className="feature">
-          <h3>Easy to extend</h3>
+          <h3>Devops</h3>
           <p>Clear structure and docs</p>
         </div>
       </section>
